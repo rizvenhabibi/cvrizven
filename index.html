@@ -1,9 +1,88 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Contoh Struktur Dasar HTML</title>
-  </head>
-  <body>
-    <p>Halo, dunia!</p>
-  </body>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae - Rizven Mutiara Habibi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/847/847969.png">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <div class="max-w-4xl mx-auto bg-white shadow-2xl rounded-2xl mt-10 overflow-hidden">
+    
+    <!-- Header -->
+    <div class="flex flex-col md:flex-row items-center p-8 bg-gradient-to-r from-indigo-500 to-purple-500 text-white">
+      <img src="https://via.placeholder.com/150" alt="Foto Profil" class="w-40 h-40 rounded-full border-4 border-white shadow-lg">
+      <div class="md:ml-8 mt-6 md:mt-0 text-center md:text-left">
+        <h1 class="text-3xl font-bold">Rizven Mutiara Habibi</h1>
+        <p class="text-lg mt-2">3D Artist & Animator</p>
+        <p class="mt-1 opacity-80">15 Tahun Pengalaman di Dunia 3D Animasi</p>
+      </div>
+    </div>
+
+    <!-- Konten -->
+    <div class="p-8 space-y-8">
+      
+      <!-- Tentang Saya -->
+      <section>
+        <h2 class="text-2xl font-semibold border-b-2 border-indigo-500 pb-2 mb-4">Tentang Saya</h2>
+        <p class="leading-relaxed">
+          Saya seorang 3D Artist dan Animator dengan pengalaman lebih dari 15 tahun di industri animasi. 
+          Terampil dalam <strong>3D Modeling</strong>, <strong>Rigging</strong>, dan <strong>Animating</strong>. 
+          Saya telah terlibat dalam berbagai proyek animasi karakter, game asset, serta iklan televisi. 
+          Keahlian saya terletak pada menciptakan karya visual yang hidup dan dinamis.
+        </p>
+      </section>
+
+      <!-- Pengalaman -->
+      <section>
+        <h2 class="text-2xl font-semibold border-b-2 border-indigo-500 pb-2 mb-4">Pengalaman Kerja</h2>
+        <ul class="space-y-4">
+          <li>
+            <h3 class="text-xl font-bold">Studio Mocca</h3>
+            <p class="italic text-sm text-gray-600">Senior 3D Animator (2010 - 2015)</p>
+            <p>Mengerjakan animasi karakter untuk serial anak-anak dan iklan nasional.</p>
+          </li>
+          <li>
+            <h3 class="text-xl font-bold">Zeus Animation</h3>
+            <p class="italic text-sm text-gray-600">Lead 3D Modeler (2015 - 2019)</p>
+            <p>Bertanggung jawab atas pipeline modeling untuk aset film pendek dan game 3D.</p>
+          </li>
+          <li>
+            <h3 class="text-xl font-bold">Stormy Studio</h3>
+            <p class="italic text-sm text-gray-600">Rigging & Animation Supervisor (2019 - Sekarang)</p>
+            <p>Mengarahkan tim animasi dalam proyek 3D cinematic dan motion capture.</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Keahlian -->
+      <section>
+        <h2 class="text-2xl font-semibold border-b-2 border-indigo-500 pb-2 mb-4">Keahlian Utama</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-2 rounded-full text-center">3D Modeling</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-2 rounded-full text-center">Rigging</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-2 rounded-full text-center">Animation</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-2 rounded-full text-center">Blender</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-2 rounded-full text-center">Maya</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-2 rounded-full text-center">Unity 3D</span>
+        </div>
+      </section>
+
+      <!-- Kontak -->
+      <section>
+        <h2 class="text-2xl font-semibold border-b-2 border-indigo-500 pb-2 mb-4">Kontak</h2>
+        <p><strong>Email:</strong> rizven3d@example.com</p>
+        <p><strong>LinkedIn:</strong> <a href="#" class="text-indigo-600 hover:underline">linkedin.com/in/rizven3d</a></p>
+        <p><strong>GitHub:</strong> <a href="#" class="text-indigo-600 hover:underline">github.com/rizven3d</a></p>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 text-center py-4 text-sm">
+      &copy; 2025 Rizven Mutiara Habibi. Dibuat dengan ❤️ dan TailwindCSS.
+    </footer>
+
+  </div>
+</body>
 </html>
